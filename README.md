@@ -21,7 +21,7 @@ For a user to be able to visit a public space, that user must have a valid pass 
 - One endpoint to check if a given user can access a given public space
 - One endpoint to check which public spaces can access a given user
 - Security and token (to define)
-- Implements status codes (at least 200, 201, 400, 401, 403, 404)
+- Implements status codes (at least 200, 201, 400, 401, 403, 404, 500)
 
 **BONUS:**
 Add units tests with Jest and Enzyme
