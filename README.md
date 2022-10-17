@@ -22,6 +22,7 @@ For a user to be able to visit a public space, that user must have a valid pass 
 - One endpoint to check which public spaces can access a given user
 - Security and token (as you wish for the level of security)
 - Implements status codes (at least 200, 201, 400, 401, 403, 404, 500)
+- (BONUS) Add units tests with Jest and Enzyme
 
 ## Entities :
 
@@ -49,6 +50,3 @@ Here's the list of the 3 entities that must be implemented in the project. The f
 - [ ] Address
 - [ ] Phone number
 - [ ] Minimum level of pass to get in
-
-**BONUS:**
-Add units tests with Jest and Enzyme
