@@ -4,13 +4,11 @@ You're team is mandated by the governement to create a new app used as a COVID c
 
 You're in charge of creating a webservice of this app.
 
-This webservice is a CRUD API mainly used to know if your authorized to be in some public spaces based on your current health situation and level of pass (3 levels of pass : not vaccinated, recent case of covid, vaccinated).
+This webservice is a CRUD API mainly used to know if your authorized to be in some public spaces based on your current health situation, age, and level of pass (3 levels of pass : not vaccinated, recent case of covid, vaccinated).
 
 This webservice must use MongoDB as database.
 
 At start, data in JSON (that you create by yourself) must be added to BDD and CURL request to the API should be possible.
-
-For a user to be able to visit a public space, that user must have a valid pass and the required age.
 
 ## Instructions :
 
@@ -50,5 +48,5 @@ Here's the list of the 3 entities that must be implemented in the project. The f
 - [ ] id (must be generated automatically)
 - [ ] Address
 - [ ] Phone number
-- [ ] Minimum level of pass required to get in
-- [ ] Minimum age required to get in
+- [ ] Minimum required pass's level to get in
+- [ ] Minimum required age to get in
