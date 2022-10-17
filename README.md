@@ -33,6 +33,7 @@ Here's the list of the 3 entities that must be implemented in the project. The f
 - [ ] id (must be generated automatically)
 - [ ] First name
 - [ ] Last name
+- [ ] Age
 - [ ] Phone number
 - [ ] Address
 - [ ] Pass's id
@@ -49,4 +50,5 @@ Here's the list of the 3 entities that must be implemented in the project. The f
 - [ ] id (must be generated automatically)
 - [ ] Address
 - [ ] Phone number
-- [ ] Minimum level of pass to get in
+- [ ] Minimum level of pass required to get in
+- [ ] Minimum age required to get in
