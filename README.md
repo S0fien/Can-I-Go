@@ -27,7 +27,7 @@ For a user to be able to visit a public space, that user must have a valid pass 
 
 Here's the list of the 3 entities that must be implemented in the project. The fields's list is not exhaustive, and you can add more (but not less) :
 
-# User :
+### User :
 
 - [ ] id (must be generated automatically)
 - [ ] First name
@@ -36,14 +36,14 @@ Here's the list of the 3 entities that must be implemented in the project. The f
 - [ ] Address
 - [ ] Pass's id
 
-# Pass :
+### Pass :
 
 - [ ] id (must be generated automatically)
 - [ ] Pass's level
 - [ ] Created_at
 - [ ] Updated_at
 
-# Place :
+### Place :
 
 - [ ] id (must be generated automatically)
 - [ ] Address
