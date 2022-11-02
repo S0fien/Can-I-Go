@@ -15,12 +15,29 @@ At start, data in JSON (that you create by yourself) must be added to BDD and CU
 > Your project (API + MONGODB) must be dockerize and runned by a
 > docker-compose
 
-- CRUD operations for all entities (users, places, and passes)
-- One endpoint to check if a given user can access a given public space
-- One endpoint to check which public spaces can access a given user
-- Security and token (as you wish for the level of security)
-- Implements status codes (at least 200, 201, 400, 401, 403, 404, 500)
-- (BONUS) Add units tests with Jest and Enzyme
+- 🛠 CRUD operations for all entities (users, places, and passes)
+
+
+- 🚦 One endpoint to check if a given user can access a given public space
+
+- 🚦 One endpoint to check which public spaces can access a given user
+
+
+- 🔒 Security and token : <br>
+A public endpoint should be created to ask for a token to consume the API. <br>
+All others endpoints should request a token in order to be consumed.<br>
+Except for a place, a ressource should only be accessed by it's owner.
+
+
+- ❌ Implements status codes <br>
+at least 200, 201, 400, 401, 403, 404, 500
+
+
+- 🌈 BONUS : Add units tests with Jest <br>
+A script npm run test should be added to your package.json
+
+
+- 🌈 BONUS : Add documentation with Swagger
 
 ## Entities :
 
