@@ -1,5 +1,7 @@
 # CAN I GO? 🤔
 
+## Context :
+
 You're team is mandated by the governement to create a new app used as a COVID context utility called "Can I go?".
 
 You're in charge of creating a webservice of this app.
@@ -13,7 +15,9 @@ At start, data in JSON (that you create by yourself) must be added to BDD and CU
 ## Instructions :
 
 > Your project (API + MONGODB) must be dockerize and runned by a
-> docker-compose
+> docker-compose.
+> 
+> Provided .nvmrc and package.json should be present in your project. You may add some libraries but the main logic should be implemented by yourself.
 
 - 🛠 CRUD operations for all entities (users, places, and passes)
 
