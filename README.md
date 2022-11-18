@@ -2,7 +2,7 @@
 
 ## Context :
 
-You're team is mandated by the governement to create a new app used as a COVID context utility called "Can I go?".
+Your team is mandated by the governement to create a new app used as a COVID context utility called "Can I go?".
 
 You're in charge of creating a webservice of this app.
 
